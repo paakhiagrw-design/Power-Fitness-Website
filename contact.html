@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Power Fitness Club - Contact Us</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- font awesome -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="page">
+    <!-- Header -->
+    <header id="masthead">
+      <nav>
+        <div class="nav-menu">
+          <div class="logo">
+            <i class="fas fa-dumbbell"></i>
+            <a href="index.html" class="logo">Power Fitness</a>
+          </div>
+          <input type="checkbox" id="menu-toggle" class="menu-toggle">
+          <label for="menu-toggle" class="menu-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </label>
+          <nav>
+            <ul>
+              <li><a href="program.html">Program</a></li>
+              <li><a href="mealPlan.html">Meal Plan</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="motivation.html">Motivational Quotes</a></li>
+              <li><a href="aboutPage.html">About</a></li>
+              <li><a href="aboutUs.html">About Us</a></li>
+              <li><a href="contact.html" class="active">Contact</a></li>
+              <li><a href="bibliography.html">Bibliography</a></li>
+            </ul>
+          </nav>
+        </div>
+      </nav>
+    </header>
+
+    <div id="allcontent">
+      <main>
+        <!-- Hero Section -->
+        <section class="hero contact-hero">
+          <div class="hero-content">
+            <h1>Get in Touch</h1>
+            <p>We’d love to hear from you—whether it’s feedback, questions, or just to say hi!</p>
+            <i class="fas fa-envelope-open-text fa-2x" style="margin-top: 1rem; color: var(--primary);"></i>
+          </div>
+        </section>
+
+        <!-- Contact Details & Form -->
+        <section class="section-padding contact-section">
+          <div class="container">
+            <div class="contact-widgets">
+              <div class="widget">
+                <i class="fas fa-phone-alt"></i>
+                <h3>Phone</h3>
+                <p>+353 08946283938</p>
+              </div>
+              <div class="widget">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Location</h3>
+                <p>Griffith College, Cork, Ireland</p>
+              </div>
+             
+              <div class="widget">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>info@powerfitness.com</p>
+                <p>paakhi.agrw@gmail.com</p>
+              </div>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="name"><i class="fas fa-user"></i> Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email"><i class="fas fa-at"></i> Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+              </div>
+              <div class="form-group">
+                <label for="message"><i class="fas fa-comment"></i> Message</label>
+                <textarea id="message" rows="5" placeholder="Type your message..." required></textarea>
+              </div>
+              <button type="button" class="btn" onclick="openMailClient()">
+                <i class="fas fa-paper-plane"></i> Send via Email
+              </button>
+              <div id="status" class="form-status"></div>
+            </form>
+          </div>
+        </section>
+    </main>
+
+      <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">          
+                <div class="footer-col footer-links">
+                <h3>Icon Credits</h3>
+                <ul>
+                    <li><a href="https://fontawesome.com" target="_blank" rel="noopener">Icon by Font Awesome</a>.</li>
+                </ul>
+                </div>
+                <div class="footer-col footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="bibliography.html">Bibliography</a></li>
+                </ul>
+                </div>
+                    
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Fitness & Wellness. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

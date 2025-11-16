@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Power Fitness Club - Transform Your Body & Mind</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- font awesome-->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="page">
+    <!-- Header -->
+    <header id="masthead">
+      <nav>
+        <div class="nav-menu">
+          <div class="logo">
+            <i class="fas fa-dumbbell"></i>
+            <a href="index.html" class="logo">Power Fitness</a>
+          </div>
+          <input type="checkbox" id="menu-toggle" class="menu-toggle">
+          <label for="menu-toggle" class="menu-icon">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </label>
+          <nav>
+            <ul>
+              <li><a href="program.html">Program</a></li>
+              <li><a href="mealPlan.html">Meal Plan</a></li>
+              <li><a href="shooping.html">Shop</a></li>
+              <li><a href="motivation.html">Motivational Quotes</a></li>
+              <li><a href="aboutPage.html">About</a></li>
+              <li><a href="aboutUs.html">About Us</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+              <li><a href="bibliography.html">Bibliography</a></li>
+            </ul>
+          </nav>              
+        </div>
+      </nav>
+    </header>
+
+    <div id="allcontent">
+
+      <main>
+        <!-- Hero Section -->
+        <section class="hero">
+          <div class="hero-content">
+            <h1>Transform Your Body & Mind</h1>
+            <p>Join Power Fitness Club and enjoy great programs, expert guidance, and a supportive environment to help you reach your goals!</p>
+            <a href="program.html" class="btn">Start Your Journey!</a>
+          </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features section-padding">
+          <div class="container">
+            <div class="section-header">
+              <h2>Why Choose Us</h2>
+              <p>At Power Fitness, we're committed to providing a supportive environment to help you reach your fitness goals.</p>
+            </div>
+            <div class="features-container">
+              <div class="feature-box fade-in">
+                <i class="fas fa-medal"></i>
+                <h3>Online Programs</h3>
+                <p>Our certified training programs are dedicated to help you achieve your fitness goals.</p>
+              </div>
+              <div class="feature-box fade-in">
+                <i class="fas fa-dumbbell"></i>
+                <h3>Meal Plans</h3>
+                <p>Get personalized meal plans.</p>
+              </div>
+              <div class="feature-box fade-in">
+                <i class="fas fa-users"></i>
+                <h3>Vibrant Community</h3>
+                <p>Join a supportive network of members who share your passion for health and fitness.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Classes Preview Section -->
+        <section class="section-padding">
+          <div class="container">
+            <div class="section-header">
+              <h2>Popular Programs</h2>
+              <p>Discover our wide range of programs designed to challenge, motivate and transform your fitness level.</p>
+            </div>
+            <div class="card-container">
+              <div class="card fade-in-up">
+                <div class="card-img">
+                  <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Strength Training Class">
+                </div>
+                <div class="card-content">
+                  <h3>Strength Training</h3>
+                  <p>Build muscle, boost metabolism, and improve overall strength with our comprehensive strength training classes.</p>
+                </div>
+                <div class="card-footer">
+        
+                  <a href="program.html" class="btn btn-outline">Details</a>
+                </div>
+              </div>
+              <div class="card fade-in-up">
+                <div class="card-img">
+                  <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="HIIT Class">
+                </div>
+                <div class="card-content">
+                  <h3>HIIT Workouts</h3>
+                  <p>High-intensity interval training that burns calories, improves cardiovascular health, and builds endurance.</p>
+                </div>
+                <div class="card-footer">
+                  <a href="program.html" class="btn btn-outline">Details</a>
+                </div>
+              </div>
+              <div class="card fade-in-up">
+                <div class="card-img">
+                  <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Yoga Class">
+                </div>
+                <div class="card-content">
+                  <h3>Yoga & Flexibility</h3>
+                  <p>Improve flexibility, balance, and mental wellness with our variety of yoga classes for all skill levels.</p>
+                </div>
+                <div class="card-footer">
+                  <a href="program.html" class="btn btn-outline">Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="text-center" style="margin-top: 40px;">
+              <a href="program.html" class="btn">View All Programs</a>
+            </div>
+          </div>
+        </section>
+
+        
+
+        <!-- BMI Calculator Section -->
+        <section class="section-padding">
+          <div class="container">
+            <div class="section-header">
+              <h2>BMI Calculator</h2>
+              <p>Calculate your Body Mass Index to get a quick assessment of your weight relative to your height.</p>
+            </div>
+            <div class="bmi-calculator fade-in">
+              <form id="bmiForm">
+                <div class="form-group">
+                  <label for="height">Height (cm)</label>
+                  <input type="number" id="height" class="form-control" placeholder="e.g., 175" required>
+                </div>
+                <div class="form-group">
+                  <label for="weight">Weight (kg)</label>
+                  <input type="number" id="weight" class="form-control" placeholder="e.g., 70" required>
+                </div>
+                <button type="submit" class="btn">Calculate BMI</button>
+              </form>
+              <div class="bmi-result">
+                <p>Your BMI:</p>
+                <div class="bmi-value">0.0</div>
+                <p class="bmi-message">Normal weight</p>
+              </div>
+            </div>
+          </div>
+        </section>
+              
+      </main>
+
+      <!-- Footer -->
+      <footer>
+        <div class="container">
+          <div class="footer-container">              
+            <div class="footer-col footer-links">
+
+              <h3>Image Credits</h3>
+              <ul>
+                <li><a href="https://www.instagram.com/p/Cw0WU5kRAUS/?utm_source=ig_web_copy_link"> Background Image from Instagram</a></li>
+                <li><a href="https://unsplash.com/photos/gym-equipment-inside-room-20jX9b35r_M"> Photo on Unsplash (1)</a></li>
+                <li><a href="https://unsplash.com/photos/group-of-women-doing-yoga-gJtDg6WfMlQ"> Photo on Unsplash (2)</a></li>
+                <li><a href="https://unsplash.com/photos/woman-in-black-tank-top-and-black-pants-bending-her-body-on-floor-UxkcSzRWM2s"> Photo on Unsplash (3)</a></li>
+              </ul>
+            </div>
+            <div class="footer-col footer-links">
+              <h3>Icon Credits</h3>
+              <ul>
+                <li><a href="https://fontawesome.com" target="_blank" rel="noopener">Icon by Font Awesome</a>.</li>
+              </ul>
+            </div>
+            <div class="footer-col footer-links">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="bibliography.html">Bibliography</a></li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <p>&copy; 2025 Power Fitness Club. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
